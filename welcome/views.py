@@ -9,3 +9,7 @@ def index(request):
 
 def tutorial(request):
     return HttpResponse('Heya Tutorial')
+
+
+def game(request):
+    return HttpResponse('Whoooooooooopps Game !')
