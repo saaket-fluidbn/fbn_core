@@ -11,5 +11,7 @@ def tutorial(request):
     return HttpResponse('Heya Tutorial')
 
 
-def game(request):
-    return HttpResponse('Whoooooooooopps Game !')
+def act(request):
+    return HttpResponse('Hey activity !')
+
+
