@@ -12,6 +12,5 @@ def tutorial(request):
 
 
 def act(request):
-    return HttpResponse('Hey activity !')
-
+    return  HttpResponse("hoeee Act")
 
